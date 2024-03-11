@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <p>Mảng</p>
+      <div id="array" class="bg-success mb-3 p-2" style="height: 40px"></div>
+      
+      <div class="form-group mt-2" style="display: inline-block">
+        <input
+          type="number"
+          name=""
+          id="themso"
+          class="form-control"
+          placeholder=""
+        />
+      </div>
+      <br />
+      <button class="btn btn-success mt-2" 
+      id="hanldeAdd">Thêm số</button>
+    </div>
+    <div class="container">
+      <h1>Bài 1: Tính Tổng Các Số Dương Trong Mảng</h1>
+      <button class="btn btn-primary mt-2" id="hanldeTongDuong">
+        Tính Tổng các số dương
+      </button>
+      <div class="result1 alert alert-success mt-2" style="height: 40px"></div>
+    </div>
+    <br />
+    <div class="container">
+      <h1>Bài 2: Đếm Các Số Dương</h1>
+      <button class="btn btn-primary mt-2" id="hanldeCount">Đếm</button>
+      <div class="result2 alert alert-success mt-2" style="height: 40px"></div>
+    </div>
+    <br />
+    <div class="container">
+      <h1>Bài 3: Số Nhỏ Nhất Trong Mảng</h1>
+      <button class="btn btn-primary mt-2" id="hanldeMin">Tìm</button>
+      <div class="result3 alert alert-success mt-2" style="height: 40px"></div>
+    </div>
+    <br />
+    <div class="container">
+      <h1>Bài 4: Số Dương Nhỏ Nhất Trong Mảng</h1>
+      <button class="btn btn-primary mt-2" id="hanldeMinDuong">Tìm</button>
+      <div class="result4 alert alert-success mt-2" style="height: 40px"></div>
+    </div>
+    <br />
+    <div class="container">
+      <h1>Bài 5: Tìm Số Chẵn Cuối</h1>
+      <button class="btn btn-primary mt-2" id="hanldeChanCuoi">Tìm</button>
+      <div class="result5 alert alert-success mt-2" style="height: 40px"></div>
+    </div>
+    <br />
+    <div class="container">
+      <h1>Bài 6: Đổi Chỗ 2 Giá Trị</h1>
+      <div class="form-group mt-2" style="display: inline-block">
+        <input
+          type="number"
+          name="index1"
+          id="index1"
+          class="form-control"
+          placeholder="Nhập Vị Trí 1"
+        />
+      </div>
+      <div class="form-group mt-2" style="display: inline-block">
+        <input
+          type="number"
+          name="index2"
+          id="index2"
+          class="form-control"
+          placeholder="Nhập Vị Trí 2"
+        />
+      </div>
+      <br />
+      <button class="btn btn-primary mt-2" id="hanldeSwap">Swap</button>
+      <div class="result6 alert alert-success mt-2" style="height: 50px"></div>
+    </div>
+    <div class="container">
+      <h1>Bài 7: Sắp Xếp Tăng Dần</h1>
+      <button class="btn btn-primary mt-2" id="hanldeSort">Tìm</button>
+      <div class="result7 alert alert-success mt-2" style="height: 50px"></div>
+    </div>
+    <br />
+    <div class="container">
+      <h1>Bài 8: Tìm Số Nguyên Tố Đầu Tiên</h1>
+      <button class="btn btn-primary mt-2" id="hanldeNguyen">Tìm</button>
+      <div class="result8 alert alert-success mt-2" style="height: 50px"></div>
+    </div>
+    <br />
+    <div class="container">
+      <h1>Bài 9: Đếm Số Nguyên</h1>
+      <button class="btn btn-primary mt-2" id="hanldeDemSoNguyen">
+        Số Lượng
+      </button>
+      <div class="result9 alert alert-success mt-2" style="height: 50px"></div>
+    </div>
+    <br />
+    <div class="container">
+      <h1>Bài 10: So Sánh Âm Dương</h1>
+      <button class="btn btn-primary mt-2" id="hanldeSoSanh">So Sánh</button>
+      <div class="result10 alert alert-success mt-2" style="height: 50px"></div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
